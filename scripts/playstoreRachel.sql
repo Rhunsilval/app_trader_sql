@@ -4,3 +4,4 @@ WHERE rating IS NOT NULL
 ORDER BY rating DESC;
 
 
+-- you need to clean this data
