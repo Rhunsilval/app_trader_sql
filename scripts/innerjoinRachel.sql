@@ -224,3 +224,4 @@ SELECT *
 FROM app_query
 WHERE row_number = 1
 	AND avg_rating > 4.0;
+	
