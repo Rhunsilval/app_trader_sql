@@ -1,26 +1,10 @@
-### App Trader
+### App Trader Project Details
 
-Your team has been hired by a new company called App Trader to help them explore and gain insights from apps that are made available through the Apple App Store and Android Play Store. App Trader is a broker that purchases the rights to apps from developers in order to market the apps and offer in-app purchase. App developers retain **all** money from users purchasing the app, and they retain _half_ of the money made from in-app purchases. App Trader will be solely responsible for marketing apps they purchase rights to.  
+A new company called App Trader has hired your team to help them explore and gain insights from apps that are made available through the Apple App Store and Android Play Store. App Trader is a broker that purchases the rights to apps from developers in order to market the apps and offer in-app purchase. App developers retain **all** money from users purchasing the app, and they retain _half_ of the money made from in-app purchases. App Trader will be solely responsible for marketing apps they purchase rights to.  
 
-Unfortunately, the data for Apple App Store apps and Android Play Store Apps is located in separate tables with no referential integrity.
+The challenge you face with this project is that the data for Apple App Store apps and Android Play Store Apps are located in separate tables with no referential integrity.
 
-#### 1. Loading the data
-a. Launch PgAdmin and create a new database called app_trader.  
-
-b. Right-click on the app_trader database and choose `Restore...`  
-
-c. Use the default values under the `Restore Options` tab. 
-
-d. In the `Filename` section, browse to the backup file `app_store_backup.backup` in the data folder of this repository.  
-
-e. Click `Restore` to load the database.  
-
-f. Verify that you have two tables:  
-    - `app_store_apps` with 7197 rows  
-    - `play_store_apps` with 10840 rows
-
-
-#### 2. Assumptions
+#### Assumptions:
 Based on research completed prior to launching App Trader as a company, you can assume the following:  
 
 a. App Trader will purchase apps for 10,000 times the price of the app. For apps that are priced from free up to $1.00, the purchase price is $10,000.  
@@ -33,7 +17,7 @@ d. For every half point that an app gains in rating, its projected lifespan incr
 
 e. App Trader would prefer to work with apps that are available in both the App Store and the Play Store since they can market both for the same $1000 per month. 
 
-#### 3. Deliverables
+#### Deliverables
 a. Develop some general recommendations as to the price range, genre, content rating, or anything else for apps that the company should target.  
 
 b. Develop a Top 10 List of the apps that App Trader should buy next week for its **Fourth of July** debut.  
@@ -42,4 +26,13 @@ c. Prepare a 5-10 minute presentation for the leadership team of App Trader to i
 
 
 
-### All analysis work must be done in PostgreSQL, however you may export query results if you want to create charts in Excel for your presentations.
+### My contributions to this team project
+1. Identify apps available in both stores, to maximize App Trader profit potentials.
+
+2. Using the information provided in the project description, create a formula that will calculate the potential profit amount for all apps availalbe in both stores.
+
+3. Identify which apps App Trader could potentially invest in.
+
+4. Identify any trends in app popularity and/or longevity.
+
+5. Assemble a one-page dashboard to present to the App Trader leadership team with my team's findings.
